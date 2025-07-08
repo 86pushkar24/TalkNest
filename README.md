@@ -62,9 +62,14 @@ A modern, full-stack real-time chat application that enables seamless communicat
 ### 📱 Responsive Design
 <!-- Add mobile/responsive screenshots here -->
 <div align="center">
-  <img src="./screenshots/mobile-view.png" alt="Mobile Interface" width="30%" />
-  <img src="./screenshots/tablet-view.png" alt="Tablet Interface" width="45%" />
-  <p><em>Responsive design across all device sizes</em></p>
+    <img src="./screenshots/mobile-view.png" alt="Mobile Interface" width="30%" />
+    <br />
+    <span><em>Mobile view: Optimized chat experience on smartphones</em></span>
+    <br /><br />
+    <img src="./screenshots/tablet-view.png" alt="Tablet Interface" width="55%" />
+    <br />
+    <span><em>Tablet view: Seamless layout for larger screens</em></span>
+    <p><em>Responsive design across all device sizes</em></p>
 </div>
 
 ---
