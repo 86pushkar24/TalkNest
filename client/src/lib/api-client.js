@@ -2,7 +2,7 @@
 // API CLIENT - AXIOS CONFIGURATION FOR BACKEND COMMUNICATION
 // =====================================
 // This module configures and exports an Axios instance for making HTTP requests
-// to the Talkhere backend API. It provides centralized configuration for
+// to the TalkNest backend API. It provides centralized configuration for
 // all API calls throughout the frontend application.
 
 import axios from "axios";

@@ -1,7 +1,7 @@
 // =====================================
 // AUTHENTICATION SLICE - ZUSTAND STATE MANAGEMENT
 // =====================================
-// This slice manages user authentication state in the Talkhere frontend.
+// This slice manages user authentication state in the TalkNest frontend.
 // It stores user information and provides methods to update authentication
 // status throughout the application lifecycle.
 

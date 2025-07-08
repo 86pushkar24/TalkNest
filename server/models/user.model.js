@@ -2,7 +2,7 @@
 // USER MODEL - MONGODB SCHEMA & AUTHENTICATION
 // =====================================
 // This model defines the user data structure and authentication logic
-// for the Talkhere chat application. It handles user registration,
+// for the TalkNest chat application. It handles user registration,
 // profile management, and password security.
 
 import mongoose  from "mongoose";

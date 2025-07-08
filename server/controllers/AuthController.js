@@ -2,7 +2,7 @@
 // AUTHENTICATION CONTROLLER - USER SECURITY & PROFILE MANAGEMENT
 // =====================================
 // This controller handles all authentication and user profile operations
-// in the Talkhere chat application. It manages user registration, login,
+// in the TalkNest chat application. It manages user registration, login,
 // session management, and profile customization.
 //
 // Key Responsibilities:

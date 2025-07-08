@@ -1,7 +1,7 @@
 /**
- * TALKHERE BACKEND SERVER - Main Entry Point
+ * TalkNest BACKEND SERVER - Main Entry Point
  * 
- * This is the core server file that bootstraps the entire Talkhere real-time chat application backend.
+ * This is the core server file that bootstraps the entire TalkNest real-time chat application backend.
  * It sets up Express.js server, MongoDB connection, middleware stack, API routes, and Socket.IO integration.
  * 
  * Key Responsibilities:
@@ -19,8 +19,8 @@
  * - Models define data structure
  * - Socket.js handles real-time communication
  * 
- * @fileoverview Main server entry point for Talkhere chat application
- * @author Talkhere Development Team
+ * @fileoverview Main server entry point for TalkNest chat application
+ * @author TalkNest Development Team
  * @version 1.0.0
  */
 
@@ -63,7 +63,7 @@ const app = express();
 const port = process.env.PORT || 5555;
 
 // MongoDB connection string from environment configuration
-// Should be in format: mongodb://localhost:27017/talkhere or MongoDB Atlas connection string
+// Should be in format: mongodb://localhost:27017/TalkNest or MongoDB Atlas connection string
 const DB_URL = process.env.DB_URL;
 
 /**
@@ -176,7 +176,7 @@ app.use("/api/channel", channelRoutes);   // Channel/group chat endpoints
  */
 app.get("/", (req, res) => {
     res.json({
-        msg: "Talkhere Backend API is running successfully! 🚀",
+        msg: "TalkNest Backend API is running successfully! 🚀",
         version: "1.0.0",
         endpoints: {
             auth: "/api/auth",
@@ -202,7 +202,7 @@ app.get("/", (req, res) => {
 
 // Start the HTTP server and store reference for Socket.IO attachment
 const server = app.listen(port, () => {
-    console.log(`🚀 Talkhere server is running on PORT ${port}`);
+    console.log(`🚀 TalkNest server is running on PORT ${port}`);
     console.log(`📡 API Base URL: http://localhost:${port}`);
     console.log(`🔗 WebSocket ready for real-time messaging`);
     console.log(`🌐 Environment: ${process.env.NODE_ENV || 'development'}`);

@@ -1,7 +1,7 @@
 // =====================================
 // CHANNEL MODEL - MONGODB SCHEMA FOR GROUP CHATS
 // =====================================
-// This model defines the structure for group chat channels in the Talkhere
+// This model defines the structure for group chat channels in the TalkNest
 // application, managing channel membership, administration, and message history.
 
 import mongoose from "mongoose";

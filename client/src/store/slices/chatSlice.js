@@ -1,7 +1,7 @@
 // =====================================
 // CHAT SLICE - ZUSTAND STATE MANAGEMENT FOR MESSAGING
 // =====================================
-// This slice manages all chat-related state in the Talkhere frontend.
+// This slice manages all chat-related state in the TalkNest frontend.
 // It handles current chat selection, message history, contacts, and channels
 // with real-time updates from socket events.
 

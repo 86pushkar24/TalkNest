@@ -1,7 +1,7 @@
 /**
  * ContactsController.js
  * 
- * Manages contact-related operations for the Talkhere chat application.
+ * Manages contact-related operations for the TalkNest chat application.
  * Handles contact search, DM list retrieval, and all contacts fetching.
  * 
  * Key Responsibilities:
@@ -18,7 +18,7 @@
 /**
  * ContactsController.js
  * 
- * This controller handles all contact-related operations in the Talkhere chat application.
+ * This controller handles all contact-related operations in the TalkNest chat application.
  * It provides endpoints for:
  * 1. Searching contacts by name/email
  * 2. Getting contacts for DM list (with last message info)

@@ -2,7 +2,7 @@
 // CHANNEL CONTROLLER - REST API FOR CHANNEL OPERATIONS
 // =====================================
 // This controller handles HTTP REST API endpoints for channel/group chat operations
-// in the Talkhere chat application. It manages channel creation, membership,
+// in the TalkNest chat application. It manages channel creation, membership,
 // and message history retrieval for group conversations.
 
 import mongoose from "mongoose";

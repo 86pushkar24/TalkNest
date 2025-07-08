@@ -1,7 +1,7 @@
 // =====================================
 // SOCKET CONTEXT - REAL-TIME COMMUNICATION MANAGER
 // =====================================
-// This file manages the WebSocket connection for real-time messaging in Talkhere.
+// This file manages the WebSocket connection for real-time messaging in TalkNest.
 // It provides a React context that wraps the entire app, establishing a persistent
 // socket connection when a user is authenticated and handling incoming messages.
 //

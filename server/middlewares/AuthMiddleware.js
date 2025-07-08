@@ -2,7 +2,7 @@
 // AUTHENTICATION MIDDLEWARE - JWT TOKEN VERIFICATION
 // =====================================
 // This middleware provides authentication protection for all secured routes
-// in the Talkhere chat application. It validates JWT tokens from HTTP cookies
+// in the TalkNest chat application. It validates JWT tokens from HTTP cookies
 // and extracts user identity for downstream route handlers.
 //
 // Key Responsibilities:

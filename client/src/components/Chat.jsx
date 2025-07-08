@@ -2,7 +2,7 @@
  * Chat.jsx
  * 
  * Main chat application component that serves as the primary interface
- * for the Talkhere real-time messaging experience. This component manages
+ * for the TalkNest real-time messaging experience. This component manages
  * the overall chat layout and handles user authentication flow.
  * 
  * Key Responsibilities:

@@ -1,7 +1,7 @@
 // =====================================
 // MESSAGE MODEL - MONGODB SCHEMA FOR CHAT MESSAGES
 // =====================================
-// This model defines the structure for all chat messages in the Talkhere
+// This model defines the structure for all chat messages in the TalkNest
 // application, supporting both direct messages and channel messages with
 // text content and file attachments.
 

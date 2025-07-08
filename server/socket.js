@@ -2,7 +2,7 @@
 // SOCKET.IO SERVER - REAL-TIME MESSAGING BACKEND
 // =====================================
 // This file sets up the WebSocket server that enables real-time communication
-// in the Talkhere chat application. It handles socket connections, message routing,
+// in the TalkNest chat application. It handles socket connections, message routing,
 // and maintains user session mapping for instant message delivery.
 //
 // Key Responsibilities:

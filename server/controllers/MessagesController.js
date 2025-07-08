@@ -2,7 +2,7 @@
 // MESSAGES CONTROLLER - REST API FOR MESSAGE OPERATIONS
 // =====================================
 // This controller handles HTTP REST API endpoints for message-related operations
-// in the Talkhere chat application. It complements the real-time socket functionality
+// in the TalkNest chat application. It complements the real-time socket functionality
 // by providing traditional HTTP endpoints for message history and file uploads.
 //
 // Key Responsibilities:
