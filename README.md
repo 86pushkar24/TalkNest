@@ -40,7 +40,7 @@ A modern, full-stack real-time chat application that enables seamless communicat
 ### 💬 Chat Interface
 <!-- Add your main chat interface screenshots here -->
 <div align="center">
-  <img src="./screenshots/chat-interface.png" alt="Main Chat Interface" width="80%" />
+  <img src="./screenshots/chat-interface.png" alt="Main Chat Interface" width="100%" />
   <p><em>Real-time messaging with intuitive chat layout</em></p>
 </div>
 
@@ -55,7 +55,7 @@ A modern, full-stack real-time chat application that enables seamless communicat
 ### 👤 Profile Management
 <!-- Add profile page and settings screenshots here -->
 <div align="center">
-  <img src="./screenshots/profile-page.png" alt="User Profile" width="80%" />
+  <img src="./screenshots/profile-page.png" alt="User Profile" width="100%" />
   <p><em>User profile management and customization</em></p>
 </div>
 
@@ -76,7 +76,7 @@ TalkNest follows a modern full-stack architecture with clear separation of conce
 ```
 ┌─────────────────┐    HTTP/WS     ┌─────────────────┐    Mongoose    ┌─────────────────┐
 │                 │   Requests     │                 │     ODM        │                 │
-│  React Frontend │ ◄─────────────► │ Node.js Backend │ ◄─────────────► │  MongoDB Atlas  │
+│  React Frontend │ ◄─────────────►│ Node.js Backend │ ◄─────────────►│  MongoDB Atlas  │
 │                 │                │                 │                │                 │
 │  • Redux Store  │                │  • Express API  │                │  • Users        │
 │  • Socket.IO    │                │  • Socket.IO    │                │  • Messages     │
@@ -95,21 +95,21 @@ TalkNest follows a modern full-stack architecture with clear separation of conce
 ## 🖼️ Architecture Diagram
 <!-- Add your system architecture diagram here -->
 <div align="center">
-  <img src="./diagrams/system-architecture.png" alt="System Architecture Diagram" width="80%" />
+  <img src="./diagrams/system-architecture.png" alt="System Architecture Diagram" width="100%" />
   <p><em>Complete system architecture showing data flow and component interactions</em></p>
 </div>
 
 ## 🗄️ Database Schema
 <!-- Add your database schema diagram here -->
 <div align="center">
-  <img src="./diagrams/database-schema.png" alt="MongoDB Database Schema" width="80%" />
+  <img src="./diagrams/database-schema.png" alt="MongoDB Database Schema" width="100%" />
   <p><em>MongoDB collections, relationships, and data structure for efficient chat storage</em></p>
 </div>
 
 ## 🔄 API Flow Diagram
 <!-- Add your API flow diagram here -->
 <div align="center">
-  <img src="./diagrams/api-flow-diagram.png" alt="API Flow Diagram" width="80%" />
+  <img src="./diagrams/api-flow-diagram.png" alt="API Flow Diagram" width="100%" />
   <p><em>REST API endpoints and Socket.IO real-time communication flow</em></p>
 </div>
 
@@ -370,7 +370,7 @@ npm run build
 ## 🎯 Quick Start Demo
 <!-- Add a quick demo GIF showing the application in action -->
 <div align="center">
-  <img src="./demos/quick-start-demo.gif" alt="Quick Start Demo" width="80%" />
+  <img src="./demos/quick-start-demo.gif" alt="Quick Start Demo" width="100%" />
   <p><em>60-second overview: From signup to sending your first message</em></p>
 </div>
 
@@ -425,7 +425,7 @@ npm run build
 window.socket.emit('test-event', { message: 'Hello Server!' });
 ```
 
-### 🧪 Testing Checklist
+<!-- ### 🧪 Testing Checklist
 
 - [ ] User registration and login
 - [ ] Profile picture upload
@@ -435,14 +435,14 @@ window.socket.emit('test-event', { message: 'Hello Server!' });
 - [ ] Channel creation and joining
 - [ ] File upload and sharing
 - [ ] Multiple browser/device synchronization
-- [ ] Network disconnection recovery
+- [ ] Network disconnection recovery -->
 
-## 📱 Testing Screenshots
+<!-- ## 📱 Testing Screenshots
 <!-- Add screenshots showing the testing process -->
-<div align="center">
-  <img src="./screenshots/multi-user-testing.png" alt="Multi-user Testing Setup" width="80%" />
-  <p><em>Testing real-time messaging across multiple browser windows</em></p>
-</div>
+<!-- <div align="center">
+  <img src="./screenshots/multi-user-testing.png" alt="Multi-user Testing Setup" width="100%" />
+  <p><em>Testing real-time messaging across multiple browser windows</em></p> -->
+</div> -->
 
 ---
 
